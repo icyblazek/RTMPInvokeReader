@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA8D4A01A998ADD000D5E9A /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8D49F1A998ADD000D5E9A /* libcrypto.dylib */; };
+		0AA8D4A21A998AE6000D5E9A /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8D4A11A998AE6000D5E9A /* libssl.dylib */; };
+		0AA8D4A41A998B0E000D5E9A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8D4A31A998B0E000D5E9A /* libz.dylib */; };
+		0AC752301AAB04C400DB5635 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC752201AAB04C400DB5635 /* amf.c */; };
+		0AC752311AAB04C400DB5635 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC752261AAB04C400DB5635 /* hashswf.c */; };
+		0AC752321AAB04C400DB5635 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC752291AAB04C400DB5635 /* log.c */; };
+		0AC752331AAB04C400DB5635 /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7522B1AAB04C400DB5635 /* parseurl.c */; };
+		0AC752341AAB04C400DB5635 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7522C1AAB04C400DB5635 /* rtmp.c */; };
+		0AC752351AAB04C400DB5635 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7522F1AAB04C400DB5635 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AA8D4831A998228000D5E9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AA8D4851A998228000D5E9A /* RTMPInvokeReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RTMPInvokeReader; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA8D49F1A998ADD000D5E9A /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		0AA8D4A11A998AE6000D5E9A /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		0AA8D4A31A998B0E000D5E9A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0AC752201AAB04C400DB5635 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
+		0AC752211AAB04C400DB5635 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		0AC752221AAB04C400DB5635 /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		0AC752231AAB04C400DB5635 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		0AC752241AAB04C400DB5635 /* dhgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		0AC752251AAB04C400DB5635 /* handshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		0AC752261AAB04C400DB5635 /* hashswf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
+		0AC752271AAB04C400DB5635 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		0AC752281AAB04C400DB5635 /* librtmp.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = librtmp.pc.in; sourceTree = "<group>"; };
+		0AC752291AAB04C400DB5635 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		0AC7522A1AAB04C400DB5635 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		0AC7522B1AAB04C400DB5635 /* parseurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
+		0AC7522C1AAB04C400DB5635 /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
+		0AC7522D1AAB04C400DB5635 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		0AC7522E1AAB04C400DB5635 /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+		0AC7522F1AAB04C400DB5635 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA8D4821A998228000D5E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA8D4A41A998B0E000D5E9A /* libz.dylib in Frameworks */,
+				0AA8D4A21A998AE6000D5E9A /* libssl.dylib in Frameworks */,
+				0AA8D4A01A998ADD000D5E9A /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA8D47C1A998228000D5E9A = {
+			isa = PBXGroup;
+			children = (
+				0AC7521E1AAB04C400DB5635 /* RTMPInvokeReader */,
+				0AA8D4A31A998B0E000D5E9A /* libz.dylib */,
+				0AA8D4A11A998AE6000D5E9A /* libssl.dylib */,
+				0AA8D49F1A998ADD000D5E9A /* libcrypto.dylib */,
+				0AA8D4861A998228000D5E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA8D4861A998228000D5E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8D4851A998228000D5E9A /* RTMPInvokeReader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC7521E1AAB04C400DB5635 /* RTMPInvokeReader */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7521F1AAB04C400DB5635 /* librtmp */,
+				0AC7522F1AAB04C400DB5635 /* main.cpp */,
+			);
+			path = RTMPInvokeReader;
+			sourceTree = "<group>";
+		};
+		0AC7521F1AAB04C400DB5635 /* librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				0AC752201AAB04C400DB5635 /* amf.c */,
+				0AC752211AAB04C400DB5635 /* amf.h */,
+				0AC752221AAB04C400DB5635 /* bytes.h */,
+				0AC752231AAB04C400DB5635 /* dh.h */,
+				0AC752241AAB04C400DB5635 /* dhgroups.h */,
+				0AC752251AAB04C400DB5635 /* handshake.h */,
+				0AC752261AAB04C400DB5635 /* hashswf.c */,
+				0AC752271AAB04C400DB5635 /* http.h */,
+				0AC752281AAB04C400DB5635 /* librtmp.pc.in */,
+				0AC752291AAB04C400DB5635 /* log.c */,
+				0AC7522A1AAB04C400DB5635 /* log.h */,
+				0AC7522B1AAB04C400DB5635 /* parseurl.c */,
+				0AC7522C1AAB04C400DB5635 /* rtmp.c */,
+				0AC7522D1AAB04C400DB5635 /* rtmp.h */,
+				0AC7522E1AAB04C400DB5635 /* rtmp_sys.h */,
+			);
+			path = librtmp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA8D4841A998228000D5E9A /* RTMPInvokeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA8D48C1A998228000D5E9A /* Build configuration list for PBXNativeTarget "RTMPInvokeReader" */;
+			buildPhases = (
+				0AA8D4811A998228000D5E9A /* Sources */,
+				0AA8D4821A998228000D5E9A /* Frameworks */,
+				0AA8D4831A998228000D5E9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTMPInvokeReader;
+			productName = RTMPRead;
+			productReference = 0AA8D4851A998228000D5E9A /* RTMPInvokeReader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA8D47D1A998228000D5E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = icyblaze;
+				TargetAttributes = {
+					0AA8D4841A998228000D5E9A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 0AA8D4801A998228000D5E9A /* Build configuration list for PBXProject "RTMPInvokeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AA8D47C1A998228000D5E9A;
+			productRefGroup = 0AA8D4861A998228000D5E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA8D4841A998228000D5E9A /* RTMPInvokeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA8D4811A998228000D5E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC752341AAB04C400DB5635 /* rtmp.c in Sources */,
+				0AC752321AAB04C400DB5635 /* log.c in Sources */,
+				0AC752351AAB04C400DB5635 /* main.cpp in Sources */,
+				0AC752331AAB04C400DB5635 /* parseurl.c in Sources */,
+				0AC752311AAB04C400DB5635 /* hashswf.c in Sources */,
+				0AC752301AAB04C400DB5635 /* amf.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AA8D48A1A998228000D5E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AA8D48B1A998228000D5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AA8D48D1A998228000D5E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/RTMPInvokeReader",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPInvokeReader",
+				);
+				PRODUCT_NAME = RTMPInvokeReader;
+			};
+			name = Debug;
+		};
+		0AA8D48E1A998228000D5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/RTMPInvokeReader",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RTMPInvokeReader",
+				);
+				PRODUCT_NAME = RTMPInvokeReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA8D4801A998228000D5E9A /* Build configuration list for PBXProject "RTMPInvokeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA8D48A1A998228000D5E9A /* Debug */,
+				0AA8D48B1A998228000D5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA8D48C1A998228000D5E9A /* Build configuration list for PBXNativeTarget "RTMPInvokeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA8D48D1A998228000D5E9A /* Debug */,
+				0AA8D48E1A998228000D5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA8D47D1A998228000D5E9A /* Project object */;
+}
