@@ -303,8 +303,8 @@ int main(int argc, const char * argv[])
         if (!RTMPPacket_IsReady(&packet))
             continue;
         
+        RTMP_ClientPacket(rtmp, &packet);           
         if (packet.m_nChannel == 3){
-            RTMP_ClientPacket(rtmp, &packet);
             AMFInvokeObject *invokeObject = AMF_DumpInvokeObject(rtmp, packet.m_body, packet.m_nBodySize);
             if (invokeObject){
                 //doSomething...
